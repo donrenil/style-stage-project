@@ -22,3 +22,36 @@ body {
   margin: 0 auto;
   padding: 20px;
 }
+/* Header */
+header {
+  background-color: #111;
+  border-bottom: 2px solid #333;
+  padding: 60px 0;
+  text-align: center; 
+}
+
+header h1 {
+     color: #00adb5;
+   font-size: 3rem;
+   margin: 0;
+}
+
+header h2 {
+  color: #888;
+   font-size: 1.2rem;
+     margin-bottom: 20px;
+}
+
+/* GitHub Button */
+ .link-github {
+     display: inline-block;
+   background: #333;
+     color: #fff;
+     padding: 8px 16px;
+   border-radius: 20px;
+  text-decoration: none;
+}
+
+.link-github:hover {
+  background: #444;
+}
