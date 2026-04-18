@@ -50,8 +50,37 @@ header h2 {
      padding: 8px 16px;
    border-radius: 20px;
   text-decoration: none;
-}
+  }
 
 .link-github:hover {
-  background: #444;
+     background: #444;
+  }
+/* Navigation */
+nav {
+       background: #222;
+    position: sticky;
+        top: 0;
+  }
+
+nav ul
+        {
+      display: flex;
+ justify-content: center;
+      list-style: none;
+   padding: 10px;
+       margin: 0;
+   }
+
+nav li {
+     margin: 0 15px;
+}
+
+nav a {
+     color: #00adb5;
+    text-decoration: none;
+        font-weight: bold;
+}
+
+nav a:hover {
+     color: #fff;
 }
