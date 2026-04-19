@@ -162,3 +162,13 @@ blockquote {
          justify-content: center;
     gap: 15px;
           }
+          /* Responsive */
+            @media (max-width: 600px) {
+       nav ul {
+     flex-direction: column;
+  }
+
+  #about ul {
+    grid-template-columns: 1fr;
+  }
+}
