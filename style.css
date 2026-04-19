@@ -132,3 +132,21 @@ blockquote {
      list-style: none;
   padding: 0;
      }
+     /* Profile */
+         aside.profile .container {
+    display: flex;
+   gap: 20px;
+    }
+
+   /* Features */
+           aside#styles ul.features {
+       display: grid;
+    grid-template-columns: repeat(3, 1fr);
+     gap: 15px;
+    }
+
+           aside#styles li {
+     background: #222;
+  padding: 20px;
+        border-radius: 8px;
+}
