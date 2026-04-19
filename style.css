@@ -119,4 +119,16 @@ blockquote {
     background: #262626;
   padding: 15px;
      border-radius: 8px;
-   }
+    }
+   /* Aside */
+      aside {
+      background: #222;
+     padding: 20px;
+            border-radius: 8px;
+      margin: 20px 0;
+        }
+
+      aside ul {
+     list-style: none;
+  padding: 0;
+     }
