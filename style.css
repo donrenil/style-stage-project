@@ -150,3 +150,15 @@ blockquote {
   padding: 20px;
         border-radius: 8px;
 }
+     /* Footer */
+             .page-footer {
+      background: #111;
+          text-align: center;
+          padding: 30px;
+        }
+
+           .page-footer ul {
+  display: flex;
+         justify-content: center;
+    gap: 15px;
+          }
