@@ -171,4 +171,17 @@ blockquote {
   #about ul {
     grid-template-columns: 1fr;
   }
-}
+   }
+        /* Accessibility */
+    .skip-link {
+             position: fixed;
+        top: 0;
+          background: #00adb5;
+    color: white;
+        padding: 5px;
+        transform: translateY(-100%);
+       }
+
+       .skip-link:focus {
+        transform: translateY(0);
+     }
