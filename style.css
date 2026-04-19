@@ -105,4 +105,18 @@ blockquote {
       padding: 15px;
    border-left: 5px solid #333;
        border-radius: 5px;
-  }
+      }
+  /* About Grid */
+    #about ul {
+     display: grid;
+   grid-template-columns: repeat(3, 1fr);
+       gap: 15px;
+     list-style: none;
+   padding: 0;
+      }
+
+       #about ul li {
+    background: #262626;
+  padding: 15px;
+     border-radius: 8px;
+   }
